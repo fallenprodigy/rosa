@@ -323,3 +323,33 @@ header {
 }
 
 /* tasteful recipes */
+
+.tasteful-recipes {
+  background: url("images/tasteful-recipes.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.between {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+}
+
+/* discover our menu */
+
+.image-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.discover-our-menu .restaurant-description {
+  padding-top: 3rem;
+  margin-bottom: 0;
+}
+
+/* the perfect blend */
+.perfect-blend {
+  background: url("images/perfect-blend.jpg") no-repeat center;
+  background-size: cover;
+}
